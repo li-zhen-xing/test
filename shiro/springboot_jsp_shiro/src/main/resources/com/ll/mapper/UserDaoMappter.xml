@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ll.springboot_jsp_shiro.dao.UserDao">
+<!-- 设置了参数类型parameterType="User"就会报错user类找不到   -->
+    <insert id="save" parameterType="User" useGeneratedKeys="true" keyProperty="id">
+        insert into t_user values(#{id},#{username},#{passward},#{salt})
+    </insert>
+
+    <select id="findByUserName" parameterType="String" resultType="User">
+        select username,passward,salt from t_user where username=#{userName}
+    </select>
+
+    <resultMap id="userMap" type="User">
+        <id column="uid" property="id" />
+        <result column="uname" property="username"/>
+        <collection property="roles" javaType="List" ofType="Role">
+            <id column="rid" property="id"/>
+            <result column="rname" property="name"/>
+        </collection>
+    </resultMap>
+
+    <select id="findRolsByuserName" parameterType="String" resultMap="userMap">
+        select u.id uid,u.username uname,r.id rid,r.name rname
+        from t_user u
+        left join t_user_role ur
+        on u.id=ur.userid
+        left join t_role r
+        on ur.roleid=r.id
+        where u.username=#{userName}
+    </select>
+
+    <select id="findPermsByuserName" parameterType="String" resultType="Perms">
+        select p.id,p.name,p.url
+        from t_role r
+        left join t_role_perms rp
+        on r.id=rp.roleid
+        left join t_perms p
+        on rp.permsid=p.id
+        where r.name=#{roleName}
+    </select>
+
+</mapper>
