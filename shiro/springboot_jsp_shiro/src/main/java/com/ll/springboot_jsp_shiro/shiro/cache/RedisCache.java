@@ -69,6 +69,7 @@ public class RedisCache<k,v> implements Cache<k,v> {
         RedisTemplate redisTemplate = (RedisTemplate) ApplicaionContextUtils.getBean("redisTemplate");
         //修改key的序列化策略 设置为String类型，如果不修改默认是jdk的序列化方式key和value都是object对象 修改了可以在终端中看到正常的key
         redisTemplate.setKeySerializer(new StringRedisSerializer());
+        //设置hash类型的key的序列化策略
         redisTemplate.setHashKeySerializer(new StringRedisSerializer());
         return redisTemplate;
     }
