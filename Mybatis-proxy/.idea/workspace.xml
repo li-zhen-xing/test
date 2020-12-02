@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="50fdeab1-4bb9-4bc0-99dd-89f59b3a5cb1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="G:/Maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="G:\Maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1jjuf7BJ6NUoKUSgXfrT813AmuI" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RunManager" selected="JUnit.read.testCellType">
+    <configuration name="Annotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Annotation" />
+      <module name="Annotation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="read.testCellType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mybatis-proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ll.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ll" />
+      <option name="MAIN_CLASS_NAME" value="com.ll.read" />
+      <option name="METHOD_NAME" value="testCellType" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="read.testRead03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mybatis-proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ll.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ll" />
+      <option name="MAIN_CLASS_NAME" value="com.ll.read" />
+      <option name="METHOD_NAME" value="testRead03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="read.testRead07" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mybatis-proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ll.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ll" />
+      <option name="MAIN_CLASS_NAME" value="com.ll.read" />
+      <option name="METHOD_NAME" value="testRead07" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.testRead03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mybatis-proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ll.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ll" />
+      <option name="MAIN_CLASS_NAME" value="com.ll.test" />
+      <option name="METHOD_NAME" value="testRead03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Annotation" />
+      <item itemvalue="JUnit.read.testCellType" />
+      <item itemvalue="JUnit.read.testRead03" />
+      <item itemvalue="JUnit.read.testRead07" />
+      <item itemvalue="JUnit.test.testRead03" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.read.testCellType" />
+        <item itemvalue="JUnit.read.testRead03" />
+        <item itemvalue="Application.Annotation" />
+        <item itemvalue="JUnit.read.testRead07" />
+        <item itemvalue="JUnit.test.testRead03" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50fdeab1-4bb9-4bc0-99dd-89f59b3a5cb1" name="Default Changelist" comment="" />
+      <created>1604329921133</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604329921133</updated>
+      <workItem from="1604329927186" duration="4488000" />
+      <workItem from="1604371077048" duration="889000" />
+      <workItem from="1604385887945" duration="575000" />
+      <workItem from="1604386488122" duration="275000" />
+      <workItem from="1604475895532" duration="4825000" />
+      <workItem from="1604481412323" duration="1880000" />
+      <workItem from="1604640087309" duration="141000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="181" key="#Project_Structure" timestamp="1604386337656">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1604386337656" />
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604386261405">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604386261405" />
+    <state x="601" y="229" key="FileChooserDialogImpl" timestamp="1604386335462">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="601" y="229" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604386335462" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1604490963745">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604490963745" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1604490963745">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604490963745" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1604490963745">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604490963745" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1604490963745">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604490963745" />
+    <state x="351" y="148" key="new project wizard" timestamp="1604640220397">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="351" y="148" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1604640220397" />
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="schoolWork:war">
+    <output-path>$PROJECT_DIR$/schoolWork/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>schoolWork</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="s-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="schoolWork:war exploded" />
+    </root>
+  </artifact>
+</component>

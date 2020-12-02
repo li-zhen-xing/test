@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="webSource:war">
+    <output-path>$PROJECT_DIR$/../webSource/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>webSource</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="webSource-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="webSource:war exploded" />
+    </root>
+  </artifact>
+</component>

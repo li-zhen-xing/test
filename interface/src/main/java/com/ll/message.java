@@ -23,6 +23,5 @@ public class message {
         map.put("appkey","1edf494eef61d6e95ba8fa1939689714");
         String post = HttpTest.Http("https://way.jd.com/he/freeweather", "POST", map);
         System.out.println(post);
-
     }
 }

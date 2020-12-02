@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/cache"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache.xsd">
+    <context:property-placeholder location="classpath:jdbc.properties"/>
+
+    <!-- 数据源 -->
+<!--    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close" >
+        <property name="driverClassName" value="${jdbc.driverClassName}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>-->
+
+    <!--mybatis的SqlSession的工厂-->
+<!--    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="configLocation" value="classpath:mybatis.xml"/>
+    </bean>-->
+
+    <!--告诉mybatis去哪里找mapper.xml文件-->
+<!--    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+        <property name="basePackage" value="com.ll.dao"/>
+    </bean>-->
+
+    <bean id="student" class="com.ll.domain.Student">
+        <property name="age" value="18"></property>
+        <property name="email" value="1780@qq.com"></property>
+        <property name="id" value="1"></property>
+        <property name="name" value="张三"></property>
+    </bean>
+
+    <bean id="student1" class="com.ll.domain.Student">
+        <property name="age" value="18"></property>
+        <property name="email" value="1780@qq.com"></property>
+        <property name="id" value="1"></property>
+        <property name="name" value="李四"></property>
+    </bean>
+
+    <bean id="student2" class="com.ll.domain.Student">
+        <property name="age" value="18"></property>
+        <property name="email" value="1780@qq.com"></property>
+        <property name="id" value="1"></property>
+        <property name="name" value="王五"></property>
+    </bean>
+
+<!--    <context:component-scan base-package="com.ll.service"/>-->
+
+</beans>

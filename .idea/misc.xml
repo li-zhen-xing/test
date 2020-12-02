@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/exception-handler" />
+    <file type="web" url="file://$PROJECT_DIR$/Interceptor" />
+    <file type="web" url="file://$PROJECT_DIR$/school" />
+    <file type="web" url="file://$PROJECT_DIR$/schoolWork" />
+    <file type="web" url="file://$PROJECT_DIR$/ssm" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/exception-handler/pom.xml" />
+        <option value="$PROJECT_DIR$/Interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm/pom.xml" />
+        <option value="$PROJECT_DIR$/Mybatis-001/pom.xml" />
+        <option value="$PROJECT_DIR$/Mybatis-proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/schoolWork/pom.xml" />
+        <option value="$PROJECT_DIR$/school/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/../Code/study/out" />
+  </component>
+</project>

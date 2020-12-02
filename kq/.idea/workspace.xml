@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a275910c-7eaf-4194-8b7b-370b127eb17e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/kq$KaoQin.ic" NAME="KaoQin Coverage Results" MODIFIED="1604319245642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\respository\maven_repository" />
+        <option name="mavenHome" value="E:/Maven/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="E:\Maven\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1jjsONJyZpZbvjzE5DaThwuS8Ro" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604328388847" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Mybatis-proxy" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ExcelRead.testRead07">
+    <configuration name="ExcelRead.testRead03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kq" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExcelRead" />
+      <option name="METHOD_NAME" value="testRead03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExcelRead.testRead07" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kq" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExcelRead" />
+      <option name="METHOD_NAME" value="testRead07" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExcelWriteTest.tesWrite03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kq" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExcelWriteTest" />
+      <option name="METHOD_NAME" value="tesWrite03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExcelWriteTest.testWrite07" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kq" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExcelWriteTest" />
+      <option name="METHOD_NAME" value="testWrite07" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExcelWriteTest.testWrite07S" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kq" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExcelWriteTest" />
+      <option name="METHOD_NAME" value="testWrite07S" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ExcelRead.testRead07" />
+        <item itemvalue="JUnit.ExcelRead.testRead03" />
+        <item itemvalue="JUnit.ExcelWriteTest.testWrite07S" />
+        <item itemvalue="JUnit.ExcelWriteTest.testWrite07" />
+        <item itemvalue="JUnit.ExcelWriteTest.tesWrite03" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a275910c-7eaf-4194-8b7b-370b127eb17e" name="Default Changelist" comment="" />
+      <created>1604317324177</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604317324177</updated>
+      <workItem from="1604317329133" duration="10977000" />
+      <workItem from="1604328804506" duration="262000" />
+      <workItem from="1604329128054" duration="2513000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ExcelWriteTest_tesWrite03 - 2020.11.02 at 21h 52m 25s.xml">
+      <configuration name="ExcelWriteTest.tesWrite03" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExcelWriteTest_tesWrite03 - 2020.11.02 at 21h 53m 22s.xml">
+      <configuration name="ExcelWriteTest.tesWrite03" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExcelWriteTest_testWrite07 - 2020.11.02 at 22h 04m 02s.xml">
+      <configuration name="ExcelWriteTest.testWrite07" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExcelWriteTest_testWrite07 - 2020.11.02 at 22h 07m 08s.xml">
+      <configuration name="ExcelWriteTest.testWrite07" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExcelWriteTest_testWrite07S - 2020.11.02 at 22h 17m 18s.xml">
+      <configuration name="ExcelWriteTest.testWrite07S" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExcelRead_testRead03 - 2020.11.02 at 22h 31m 36s.xml">
+      <configuration name="ExcelRead.testRead03" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExcelRead_testRead03 - 2020.11.02 at 22h 33m 42s.xml">
+      <configuration name="ExcelRead.testRead03" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExcelRead_testRead03 - 2020.11.02 at 22h 34m 04s.xml">
+      <configuration name="ExcelRead.testRead03" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExcelRead_testRead03 - 2020.11.02 at 22h 36m 53s.xml">
+      <configuration name="ExcelRead.testRead03" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExcelRead_testRead07 - 2020.11.02 at 22h 37m 59s.xml">
+      <configuration name="ExcelRead.testRead07" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1604329920267">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604329920267" />
+    <state x="463" y="165" key="SettingsEditor" timestamp="1604329678196">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604329678196" />
+    <state x="334" y="136" key="new project wizard" timestamp="1604329734548">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="136" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1604329734548" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1604329506078">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604329506078" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>kq</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: commons-codec:commons-codec:1.10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

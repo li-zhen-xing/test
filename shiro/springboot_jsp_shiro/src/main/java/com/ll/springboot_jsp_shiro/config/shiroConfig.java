@@ -20,6 +20,7 @@ import java.util.HashMap;
  * @Author 李振兴
  * @Date 2020/11/8 12:41
  **/
+
 @Configuration
 public class shiroConfig {
 

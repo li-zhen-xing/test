@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="exception-handler:war">
+    <output-path>$PROJECT_DIR$/exception-handler/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>exception-handler</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="exception-handler-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="exception-handler:war exploded" />
+    </root>
+  </artifact>
+</component>

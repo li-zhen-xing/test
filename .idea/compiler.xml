@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Mybatis-proxy" />
+        <module name="interceptor" />
+        <module name="exception-handler" />
+        <module name="Mybatis-001" />
+        <module name="school" />
+        <module name="ssm" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="exception-handler" target="1.8" />
+      <module name="interceptor" target="1.7" />
+      <module name="Mybatis-001" target="1.7" />
+      <module name="Mybatis-proxy" target="1.7" />
+      <module name="school" target="1.8" />
+      <module name="schoolWork" target="1.8" />
+      <module name="ssm" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

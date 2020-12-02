@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Mybatis-001/Mybatis-001.iml" filepath="$PROJECT_DIR$/Mybatis-001/Mybatis-001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mybatis-proxy/Mybatis-proxy.iml" filepath="$PROJECT_DIR$/Mybatis-proxy/Mybatis-proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dataStructure/dataStructure.iml" filepath="$PROJECT_DIR$/dataStructure/dataStructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exception-handler/exception-handler.iml" filepath="$PROJECT_DIR$/exception-handler/exception-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interceptor/interceptor.iml" filepath="$PROJECT_DIR$/Interceptor/interceptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/school/school.iml" filepath="$PROJECT_DIR$/school/school.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm/ssm.iml" filepath="$PROJECT_DIR$/ssm/ssm.iml" />
+    </modules>
+  </component>
+</project>
