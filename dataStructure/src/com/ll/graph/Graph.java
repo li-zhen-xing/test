@@ -2,6 +2,7 @@ package com.ll.graph;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
 
 /**
  * @ClassName Graph
@@ -30,7 +31,9 @@ public class Graph {
 
         //graph.showGraph();
 
-        graph.dfs(0);
+        //graph.dfs(0);
+
+        graph.bfs(0);
     }
 
 
@@ -107,7 +110,7 @@ public class Graph {
         return -1;
     }
     //深度优先遍历算法   有点类似于前序遍历
-    public void dfs(boolean[] isVisited,int i){
+    private void dfs(boolean[] isVisited,int i){
         //访问该节点，输出节点
         System.out.print(getValueByIndex(i)+"-->");
         //设置节点访问过
@@ -126,5 +129,42 @@ public class Graph {
     }
     public void dfs(int n){
         dfs(isVisited,n);
+    }
+
+    //广度优先  区别就是不用递归，直接遍历一个节点然后把遍历到的节点数据保存到一个队列，用队列来维持遍历顺序。
+    //如果当前节点已经没有邻节点了就直接从队列种取出保存的节点进行再一次遍历
+    private void bfs(boolean[] isVisited,int i){
+        //表示队列的头节点对应的下标
+        int u;
+        //邻节点的下标
+        int w;
+        //队列，记录节点的访问顺序
+        LinkedList<Object> queue = new LinkedList<>();
+        //访问该节点，输出节点
+        System.out.print(getValueByIndex(i)+"-->");
+        //标记当前节点被访问过
+        isVisited[i]=true;
+        //将当前节点加入队列尾部
+        queue.addLast(i);
+        //当队列不为空时进遍历
+        while (!queue.isEmpty()){
+            //取出队列头节点的下标
+            u= (int) queue.removeFirst();
+            //取得当前第一个邻节点的下标
+            w=getFirstNeighbor(u);
+            while (w!=-1){
+                if (!isVisited[w]){
+                    System.out.print(getValueByIndex(w)+"-->");
+                    isVisited[w]=true;
+                    queue.addLast(w);
+                }
+
+                w=getNextNeighbor(u,w);
+            }
+        }
+    }
+
+    public void bfs(int i){
+        bfs(isVisited,i);
     }
 }
