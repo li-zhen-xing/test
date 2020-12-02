@@ -152,13 +152,18 @@ public class Graph {
             u= (int) queue.removeFirst();
             //取得当前第一个邻节点的下标
             w=getFirstNeighbor(u);
+            //如果有邻节点则进行遍历
             while (w!=-1){
+                //判断这个邻节点有没有被遍历过
                 if (!isVisited[w]){
+                    //没有则输出该节点
                     System.out.print(getValueByIndex(w)+"-->");
+                    //设置被访问过
                     isVisited[w]=true;
+                    //加入到队列中，用于后续从这个节点开始进行新的一轮遍历
                     queue.addLast(w);
                 }
-
+                //如果这个节点被访问过了，就找这个节点的下一个邻节点，查看那个邻节点是否被访问过，重复这样的操作就达到了广度优先算法的目的
                 w=getNextNeighbor(u,w);
             }
         }
